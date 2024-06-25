@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="site.css">
+        <title>ContactUs</title>
+        <link rel="icon" href="./images/logo.png" type="image/x-icon">
+
+    </head>
+    <bodyh>
+        <div id="contactUs">
+            <h1>Contact Us</h1>
+            <form action="#">
+                <div class="form-shape">
+                    <label for="query">
+                        Type of query
+                    </label>
+                    <select name="myQuery" id="query">
+                        <option value="sel" selected>
+                            Select
+                        </option>
+                        <option value="ord">
+                            Order related Issues
+                        </option>
+                        <option value="site">
+                            Site relateds Issues
+                        </option>
+                        <option value="fed">
+                            Complaint related Issues
+                        </option>
+                        <option value="others">
+                            Others
+                        </option>
+                    </select>
+                </div>
+                <div class="form-shape">
+                    <label for="naem">Name</label>
+                    <input type="next" name="myName" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-shape">
+                    <label for="pho">Phone Number</label>
+                    <input type="phone" name="myPhone" id="pho0" placeholder="Enter your Phone number">
+                </div>
+                <div id="radio">
+                    Are you a membre of onlineFoodshop:
+                    Yes:<input type="radio" name="eligible">
+                    No:<input type="radio" name="eligible">
+                </div>
+                <div class="form-shape">
+                    <label for="message">
+                        Ellaborate your query
+                    </label>
+                    <textarea name="mesg" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <input class="btn1" type="submit" value="submit">
+                <input class="btn1" type="reset" value="Reset">
+            </form>
+        </div>
+    </body>
+</html>

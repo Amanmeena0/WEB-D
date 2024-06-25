@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parallex-1{
+    width: 100%;
+    height: 600px;
+    background: url(./mountains-retreat-minimal-beautiful-4k-vl-1366x768.jpg) ;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallex-1 h2{
+    margin: auto;
+    position: relative;
+    top: 300px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.parallex-2{
+    width: 100%;
+    height: 600px;
+    background: url(./1239071251-ee3cde70d1d014b10977b23967958eeb3a5c825ff3f169b8da9528dccda718f2-d_640x360.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.parallex-2 h2{
+    margin: auto;
+    position: relative;
+    top: 300px;
+    width: 250px;
+    height: 37px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para-1{
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+
+.para-2{
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}

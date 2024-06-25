@@ -1,0 +1,267 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header styling */
+#top{
+    color: rgb(245, 10, 10);
+    text-align: center;
+    font-size: 70px;
+    font-family: monospace;
+}
+#top1{
+    text-align: center;
+    color: black;
+    font-size: 46px;
+    font-family: monospace;
+}
+/* Navigation bar styling */
+/* Navbar Functionality */
+#navbar {
+    display: flex;
+    flex-direction: row; /* Change to row for horizontal alignment */
+    align-items: center;
+    background-color: red;
+    height: fit-content;
+    padding: 10px;
+    font-family: monospace;
+}
+/* Navbar image styling */
+#navbar img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 3px;
+}
+/*Navbar content functionality*/
+#navcontent {
+    display: flex;
+    justify-content: center; /* Adjust as needed */
+    align-items: center;
+    gap: 300px;
+    font-size: 30px;
+    flex-grow: 1; /* Allow content to grow and fill the available space */
+}
+/*Navbar content styling*/
+ul li {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a {
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color:chocolate;
+    border-radius: 10px;
+}
+
+
+/* website background image designing */
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    
+}
+
+/* Setting the background image using before pseudo selector */
+#container1::before{
+    content: ' ';
+    background: url("./images/food-4k-1pf6px6ryqfjtnyr.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: monospace;
+    margin-right: 45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+}
+
+#row1{
+    background-color:brown;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* Button styling */
+.btn{
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    width:24vw;
+    height: 21vh;
+    box-shadow: 2px 7px 10px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 38px;
+    border-radius: 40px;
+}
+
+
+#row2::before{
+    content: ' ';
+    background: url('./images/chef-hands-keep-wok-fire-600nw-1758966962.webp') no-repeat center center /cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#row3{
+    position: relative;
+    width: 24vw;
+    height: 21vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+
+    margin-left: 38px;
+    border-radius: 40px;
+}
+#row3::before{
+    content: ' ';
+    background: url('./images/burger.jpeg') no-repeat center center/ cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 24vw;
+    height: 21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#top3{
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 30px ;
+    font-family: monospace;
+}
+
+#container4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: #f0f0f0;
+    background-color: aliceblue;
+}
+#row4{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url('./images/dosa.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+#row5{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url('./images/pexels.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+#row6{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url('./images/jalebi.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+}
+/* Designing the footer */
+footer {
+    text-align: center;
+}
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn1{
+    padding: 10px;
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+}
+/*Changing the color of placeholder*/
+::placeholder{                  
+    color:gray;
+}   
+/* Designing of contact us */
+#contactUs{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.form-shape input , .form-shape select ,.form-shape textarea{
+    width: 92%;
+    padding: 0.5rem;
+}
+
+/* changing the color of placeholder */
+::placeholder{
+    color: gray;
+}

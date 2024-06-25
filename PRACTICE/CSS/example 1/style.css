@@ -1,0 +1,92 @@
+.navbar {
+	background-color: black;
+	float: center;
+	height: 60px;
+}
+
+.navbar ul {
+	overflow: auto;
+}
+
+.navbar li {
+	float: left;
+	list-style: none;
+	margin: 4px 4px;
+	padding: 11px 30px 20px 10px;
+	font-size: 17px;
+	margin-right: 80px;
+}
+
+#A1 {
+	font-size: 25px;
+	color: goldenrod
+}
+
+.navbar button {
+	background-color: goldenrod;
+}
+
+.navbar li a {
+	padding: 3px 3px;
+	text-decoration: none;
+	color: white;
+}
+
+.search {
+	float: right;
+	color: white;
+	padding: 12px 75px;
+}
+
+.search label input {
+	border: 2px solid black;
+}
+.navbar input {
+	border: 2px solid yellow;
+	border-radius: 14px;
+	padding: 3px 19px;
+	width: 200px;
+}
+
+.navbar li a:hover {
+	color: goldenrod;
+}
+
+content {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding: 20px; 
+	height: 500px;
+}
+
+.R4 {
+	flex: 1;
+	background-color: #f2f2f2;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	height: 400px;
+	width: 400px;
+	border: 2px solid rgb(1, 15, 1);
+	box-shadow: 0 0 10px rgb(0, 5, 2);
+}
+#r1{
+	background-color: orange;
+}
+#r2{
+	background-color: white;
+}
+#r3{
+	background-color: rgb(50, 102, 25);
+}
+footer {
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+} 

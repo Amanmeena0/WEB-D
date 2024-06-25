@@ -1,0 +1,95 @@
+<head>
+    <title>TABLE</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        /* border: spacing: 5px; */
+    }
+    th ,td{
+        text-align: left;
+        padding: 1px;
+    } 
+    table#T02{
+        width: 100%;
+        background-color: lightgoldenrodyellow;
+    }
+    table#T01{
+        width: 100%;
+        background-color: lightblue;
+    }
+    table#T03{
+        width: 100%;
+        background-color: lightcoral;
+    }
+</style>
+<body style="background-color : green">
+    <table  style="width: 100%" id="T01">
+        <caption>MY BOOKs</caption>
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th colspan="2" style="text-align: center;">Genre</th>
+        </tr>
+        <tr>
+            <td>The Book Thief</td>
+            <td>Markus Zusak</td>
+            <td>Historical Fiction</td>
+            <td>Historical Fiction</td>
+        </tr>
+        <tr>
+            <td>The cruel Prince</td>
+            <td>Holly Black</td>
+            <td>Fantasy</td>
+            <td>Fantasy</td>
+        </tr>
+    </table>
+    <br/>
+    
+    <table style="width: 100%;" id="T02">
+        <caption>DETAILS</caption>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Priya</td>
+            <td>Sharma</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Gupta</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td>Arun</td>
+            <td>Singh</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Watson</td>
+            <td>41</td>
+        </tr>
+    </table>
+    <BR/>
+    <table style="border: 5px solid Black" id="T03">
+        <caption>TABLE</caption>
+        <tr>
+            <td> First Column of Outer Table </td>
+            <td>
+                <table style="border : 5px solid grey">
+                    <tr>
+                        <td> First row of Inner Table </td>
+                    </tr>
+                    <tr>
+                        <td> Second row of Inner Table </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

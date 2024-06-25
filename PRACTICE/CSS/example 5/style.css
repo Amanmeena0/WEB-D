@@ -1,0 +1,13 @@
+img { 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    /* we can alter the value of the z-index into negative or positive. */
+    z-index: -1 ;
+    height: 1600px;
+    width: 1600px;
+} 
+h1, 
+p { 
+    background-color: green; 
+} 

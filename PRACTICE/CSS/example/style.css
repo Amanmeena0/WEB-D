@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .fixed-div {
+    position: fixed;
+    top: 0;
+    right: 0;    
+    width: 200px; /* Set the desired width */
+    height: 100vh; /* Set the full height of the viewport */
+    background-image: url(./tree-736885_1280.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    z-index: 2; /* Set a higher z-index value to place it on top of the page */
+  }
+  

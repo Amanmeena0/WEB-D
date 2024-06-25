@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>text-decoration-line</title>
+	<style>
+		h1 {
+			color: green;
+		}
+
+		body {
+			text-align: center;
+		}
+
+		ul li {
+			margin-top: 15px;
+		}
+
+		#example1 {
+			/* text-decoration: underline; */
+			/* text-decoration: underline dotted; */
+			/* text-decoration: underline wavy green; */
+
+		}
+
+		#example2 {
+			/* text-decoration: line-through; */
+			/* text-decoration: underline wavy; */
+			/* text-decoration: line-through red; */
+
+		}
+
+		#example3 {
+			/* text-decoration: overline; */
+			/* text-decoration: underline dashed; */
+			/* text-decoration: overline blue; */
+
+		}
+
+		#A1 {
+			text-decoration: initial;
+		}
+
+		#example {
+			text-decoration: underline wavy green;
+		}
+
+		#example1child {
+			text-decoration: inherit;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>GeeksforGeeks</h1>
+	<h2> text-decoration: text-decoration-line;</h2>
+	<ul>
+		<li id="example1">Welcome geeks!</li>
+		<li id="example2">Welcome geeks!</li>
+		<li id="example3">Welcome geeks!</li>
+	</ul>
+	<h2>GeeksforGeeks</h2>
+	<a href="#">This is a link without text-decoration.</a>
+	<br />
+	<a id="A1" href="#">
+		This is a link with text-decoration set to initial.
+	</a>
+	<h1>GeeksforGeeks</h1>
+	<h2> text-decoration: inherit;</h2>
+	<p id="example"> I am parent and <span id="example1child">
+			this my is child.</span> </p>
+</body>
+
+</html>
